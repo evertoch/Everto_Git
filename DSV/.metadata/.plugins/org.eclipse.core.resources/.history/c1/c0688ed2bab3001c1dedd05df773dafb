@@ -1,0 +1,20 @@
+package estudos;
+
+public class Estudos {
+
+	public static void main(String[] args) {
+		double result;
+		int desafioDois = 5;
+		System.out.println(desafioDois  += desafioDois++);
+		
+		int desafioUm = 5;
+		System.out.println(desafioUm  += ++desafioUm );
+
+		
+
+	}
+
+}
+
+
+

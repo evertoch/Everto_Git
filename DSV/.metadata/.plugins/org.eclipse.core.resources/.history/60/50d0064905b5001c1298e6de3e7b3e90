@@ -1,0 +1,30 @@
+package estudos;
+
+import java.util.Scanner;
+
+public class Estudos {
+
+	public static void main(String[] args) {
+		
+	Scanner teclado = new Scanner(System.in);
+	
+	System.out.println("Informe a altura entre o 1º andar e o 2º andar em metros:");
+	float altura = teclado.nextFloat();
+	
+	System.out.println("Agora informe a quantidade de degraus que deseja construir entre os andares:");
+	int degrau = teclado.nextInt();
+	
+	float conversao = altura * 100;
+	
+	float altDegrau = (conversao * degrau); 
+	
+	System.out.println("Cada degrau deverá possuir" +altDegrau);
+	
+	teclado.close();
+	
+	}
+
+}
+
+
+

@@ -1,0 +1,32 @@
+package estudos;
+
+import java.util.Scanner;
+
+public class Estudos {
+
+	public static void main(String[] args) {
+		
+	Scanner teclado = new Scanner(System.in);
+		
+	System.out.println("Vamos calcular a área de um trapézio!!");
+	System.out.println("Para começar, informe o valor da base menor(b) do trapézio");
+	float baseMenor = teclado.nextFloat();
+	
+	System.out.println("Perfeito! Em seguida, informe o valor da base maior(B) do trapézio");
+	float baseMaior = teclado.nextFloat();
+	
+	System.out.println("Para finalizar, informe a altura(h) do trapézio");
+	float altura = teclado.nextFloat();
+	
+	float area = (altura * (baseMenor + baseMaior))/2;
+	
+	System.out.println("A área calculada é: "+area);
+	
+	
+	teclado.close();
+	}
+
+}
+
+
+
